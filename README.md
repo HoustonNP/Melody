@@ -1,6 +1,6 @@
 # Melody - Учебный проект
 ## Прект выполнил: Панищев Владислав
 ### Технологии 
--HTML
--CSS
--Javascript
+- HTML
+- CSS
+- Javascript
