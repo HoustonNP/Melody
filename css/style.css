@@ -1,0 +1,43 @@
+body{
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+.contaner{
+	max-width: 1280px;
+	margin: auto;
+}
+.header{
+	background-color: #635854;
+	padding: 9px 40px;
+	border-bottom: solid 4px;
+	border-color: #3596F5;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav{
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+.navlist{
+	text-decoration: none;
+	color: white;
+}
+li{
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: center;
+}
+.phone{
+	text-align: right;
+	color: white;
+	font-size: 14px;
+}
+.phonenumber{
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+}
