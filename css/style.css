@@ -9,92 +9,100 @@
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
 }
+.contaner{
+	max-width: 1280px;
+	margin: auto;
+}
 .header{
 	padding: 8px 40px;
 	background-color: #635854;
 	border-bottom: solid 4px;
 	border-color: #3596F5;
 }
-.contaner{
-	max-width: 1280px;
-	margin: auto;
-}
-.navbar{
+.header-contaner{
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 }
-.nav{
+.header-logo{
+	margin-right: 182px;
+}
+.header-nav{
+	display: flex;
 	margin: 0;
 	padding: 0;
-	list-style: none
+	list-style: none;
+	margin-right: auto;
 }
-.navlist{
-	text-decoration: none;
-	color: white;
-	transition: 0.3s;
-}
-.navlist:hover{
-	color: #3596F5;
-	transition: 0.3s;
-}
-li{
-	margin-left: 40px;
-	margin-right: 40px;
+.header-nav li{
+	margin-right: 80px;
 	text-align: center;
 }
-.phone{
-	text-align: right;
-	color: white;
-	font-size: 14px;
-}
-.phonenumber{
+.header-nav-item{
 	text-decoration: none;
-	color: white;
-	font-size: 17px;
+	color: #fff;
 	transition: 0.3s;
 }
-.phonenumber:hover{
+.header-nav-item:hover{
 	color: #3596F5;
 	transition: 0.3s;
 }
+.header-phone{
+	text-align: right;
+	font-size: 14px;
+	color: #fff;
+}
+.heaader-phone-number{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 17px;
+	color: #fff;
+	transition: 0.2s;
+}
+.heaader-phone-number:hover{
+	color: #3596F5;
+	transition: 0.2s;
+}
 .main{
-	display: flex;
+	padding: 54px 40px 95px;
 }
-.main-image{
-	margin: 48px 0px 101px;
-}
-.main-info{
+.main-contaner{
 	display: flex;
-	flex-direction: column;
-	margin-top: 80px;
-	align-items: center;
 }
 .home-image path{
 	opacity: 0;
 	cursor: pointer;
-	transition: 0.1s;
 }
 .home-image path:hover{
 	opacity: 1;
-	transition: 0.2s;
 }
-.main-info{
+.main-item{
+	margin: auto;
+}
+.main-item-contaner{
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	flex-direction: column;
-	max-height: 505px;
-	margin-left: 107px;
+	height: 505px;
+}
+.main-item-text{
+	font-family: "Bebas Neue";
+	font-weight: normal;
+	font-size: 44px;
+	color: #635854;
+	text-transform: uppercase;
+	margin: 0;
 }
 .selectlist{
 	display: flex;
-	align-items: center;
 	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
 }
 .counter-button{
 	background-color: #fff;
 	border: none;
+	padding: 0;
 }
 .counter-arrow-down{
 	transform: rotateX(180deg);
@@ -103,18 +111,11 @@ li{
 	cursor: pointer;
 }
 .counter-number{
-	font-family: "Bebas Neue";
+	font-family: "Bebas Neue", sans-serif;
 	font-weight: normal;
 	font-size: 90px;
 	color: #635854;
 	margin: 15px 0;
-}
-.main-info-text{
-	font-family: "Bebas Neue";
-	font-weight: normal;
-	font-size: 44px;
-	color: #635854;
-	text-transform: uppercase;
 }
 .golist{
 	color: #fff;
@@ -127,4 +128,44 @@ li{
 .golist:hover{
 	box-shadow: 5px 5px 10px #a4ccf1;
 	cursor: pointer;
+}
+.footer{
+	background-color: #D7D7D7;
+	border-top: solid 4px;
+	border-color: #3596F5;
+	padding: 50px 40px 56px;
+}
+.footer-contaner{
+	display: flex;
+	align-items: center;
+}
+.footer-logo{
+	margin-right: 37px;
+}
+.footer-phone{
+	font-size: 14px;
+	color: #635854;
+	margin-right: 59px;
+}
+.footer-phone-number{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 17px;
+	color: #635854;
+	transition: 0.2s;
+}
+.footer-phone-number:hover{
+	color: cornflowerblue;
+	transition: 0.2s;
+}
+.footer-massage a:not(:last-child){
+	text-decoration: none;
+	margin-right: 15px;
+}
+.footer-massage{
+	margin-right: auto;;
+}
+.footer-info a{
+	margin-left: 20px;
+	color: #635854;
 }
