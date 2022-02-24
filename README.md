@@ -3,4 +3,4 @@
 ### Технологии:
 - HTML
 - CSS
-- Javascript
+- JavaScript
