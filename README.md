@@ -1,5 +1,6 @@
-# Melody - Учебный проект
-### Технологии 
+# https://houstonnp.github.io/Melody/
+### Учебный проэкт
+### Технологии:
 - HTML
 - CSS
 - Javascript
